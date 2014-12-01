@@ -1,28 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is a simple App to test Continuous Integration with Travis-CI
 
-Things you may want to cover:
+To run it on you machine be sure you have ruby 2.0 and Rails 3 or beyond.
 
-* Ruby version
+Also before you *server* this app with rails server, run *bundle install* to install missing gems if you don't have in your environment
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

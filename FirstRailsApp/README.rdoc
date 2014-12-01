@@ -1,8 +1,0 @@
-== README
-
-this is a simple App to test Continuous Integration with Travis-CI
-
-To run it on you machine be sure you have ruby 2.0 and Rails 3 or beyond.
-
-Also before you *server* this app with rails server, run *bundle install* to install missing gems if you don't have in your environment
-

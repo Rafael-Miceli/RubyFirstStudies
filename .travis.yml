@@ -8,6 +8,6 @@ rvm:
   - jruby-19mode # JRuby in 1.9 mode
   - jruby-20mode # JRuby in 2.0 mode
   - rbx-2
-install: gem install rails
+install: bundle install
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec

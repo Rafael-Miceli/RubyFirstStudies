@@ -6,6 +6,7 @@ rvm:
 deploy:
   provider: heroku
   api_key: 45b212c8-7541-4603-ad99-ebf68017f826
+  app: arcane-retreat-6573
 #install: bundle install
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec

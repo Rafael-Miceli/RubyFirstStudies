@@ -4,8 +4,8 @@ rvm:
   - "2.0.0"
   - rbx-2
 install: bundle install
-script: 
-  - RAILS_ENV=test bundle exec rake db:prepare --trace
+#script: 
+  #- RAILS_ENV=test bundle exec rake db:prepare --trace
 deploy:
   provider: heroku
   api_key: 45b212c8-7541-4603-ad99-ebf68017f826

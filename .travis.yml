@@ -10,7 +10,7 @@ script:
   - RAILS_ENV=test bundle exec rake --trace db:migrate
   - bundle exec rake db:test:prepare
 before_script:
-  - psql -c 'create database ruby-getting-started_test' -U postgres
+  - psql -c 'create database ruby_getting_started_test' -U postgres
 deploy:
   provider: heroku
   api_key: 45b212c8-7541-4603-ad99-ebf68017f826

@@ -21,7 +21,3 @@ deploy:
   app:
     master: arcane-retreat-6573
     develop: lit-depths-3628
-  app: 
-#install: bundle install
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec

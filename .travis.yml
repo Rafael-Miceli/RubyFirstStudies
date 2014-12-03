@@ -3,6 +3,11 @@ rvm:
   - "1.9.3"
   - "2.0.0"
 install: bundle install
+#whitelist
+branches:
+  only:
+    - master
+    - develop
 env:
   - DB=postgresql
 script:
@@ -13,7 +18,10 @@ before_script:
 deploy:
   provider: heroku
   api_key: 45b212c8-7541-4603-ad99-ebf68017f826
-  app: arcane-retreat-6573
+  app:
+    master: arcane-retreat-6573
+    develop: lit-depths-3628
+  app: 
 #install: bundle install
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec

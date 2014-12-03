@@ -3,6 +3,10 @@ rvm:
   - "1.9.3"
   - "2.0.0"
 install: bundle install
+#whitelist
+branches:
+  only:
+    - master
 env:
   - DB=postgresql
 script:

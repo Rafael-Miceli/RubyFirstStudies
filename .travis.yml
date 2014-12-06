@@ -15,9 +15,3 @@ script:
   - bundle exec rake db:test:prepare
 before_script:
   - psql -c 'create database ruby_getting_started_test' -U postgres
-deploy:
-  provider: heroku
-  api_key: 45b212c8-7541-4603-ad99-ebf68017f826
-  app:
-    master: arcane-retreat-6573
-    develop: lit-depths-3628
